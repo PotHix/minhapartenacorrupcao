@@ -101,6 +101,17 @@ var queries = [{
   }]
 }, {
   id: 10,
+  text: "Você mora em um estado e registra seu veículo em outro porque o valor dos impostos é mais barato?",
+  subhead: 'Possíveis desculpas: "Aqui não vou conseguir passar na fiscalização"',
+  answers: [{
+    text: "Sim",
+    target: 2
+  }, {
+    text: "Não",
+    target: 11
+  }]
+}, {
+  id: 11,
   text: "Parabéns, você não tem parte na corrupção!",
   subhead: 'Responder "Não" a todas essas perguntas não é fácil, mas é importante sempre olharmos para o que é certo e começar a luta de dentro para fora! Se você teve alguma resposta "Sim", você já tem alguns próximos passos para ajudar na luta contra a corrupção.',
   answers: []
